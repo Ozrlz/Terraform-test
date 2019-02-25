@@ -1,0 +1,8 @@
+version: "2.2"
+services:
+  terraform:
+    container_name: terraform-test
+    image: hashicorp/terraform:full
+    entrypoint: bash
+    volumes:
+     - ./files:/files
