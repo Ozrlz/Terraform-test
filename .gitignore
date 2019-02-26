@@ -3,3 +3,4 @@ files/svc-account.json
 
 #Ignore the terraform folder :D
 files/.terraform/*
+files/terraform.*
